@@ -38,3 +38,20 @@ npm run build
 - Internationalization (English/Russian)
 - Detailed bank history tracking
 - Game history with detailed information
+
+## Deployment
+
+The application is automatically deployed to GitHub Pages on every push to the `main` branch.
+
+Live demo: https://whooooop.github.io/loto/
+
+### Manual Deployment
+
+If you need to deploy manually:
+
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+
+2. The GitHub Actions workflow will automatically deploy to GitHub Pages when you push to the `main` branch.
