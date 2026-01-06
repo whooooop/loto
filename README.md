@@ -1,40 +1,40 @@
-# Игра в Лото
+# Loto Game
 
-Приложение для игры в лото на Vue.js с управлением игроками, балансами и статистикой.
+A Vue.js application for playing Loto with player management, balance tracking, and statistics.
 
-## Установка
+## Installation
 
 ```bash
 npm install
 ```
 
-## Запуск
+## Running
 
 ```bash
 npm run dev
 ```
 
-## Сборка
+## Building
 
 ```bash
 npm run build
 ```
 
-## Правила игры
+## Game Rules
 
-1. **Старт игры**: Все участники вносят стартовую сумму в банк
-2. **Верх (первая строка)**: Все игроки добавляют стартовую сумму, кроме собравшего верх
-3. **Середина (вторая строка)**: Собравший забирает половину банка, все остальные добавляют стартовую сумму
-4. **Низ (третья строка)**: Игра заканчивается, собравший забирает весь банк
+1. **Game Start**: All participants contribute a starting amount to the bank
+2. **Top (first row)**: All players add the starting amount, except the one who collected the top
+3. **Middle (second row)**: The collector takes half of the bank, all others add the starting amount
+4. **Bottom (third row)**: The game ends, the collector takes the entire bank
 
-## Функции
+## Features
 
-- Управление игроками и их балансами
-- Создание и ведение игр
-- Автоматическая генерация карточек лото
-- Ручной ввод выпавших номеров
-- Статистика по играм
-- Сохранение данных в localStorage
-
-
-
+- Player and balance management
+- Game creation and tracking
+- Automatic loto card generation
+- Manual input of drawn numbers
+- Game statistics
+- Data persistence in localStorage
+- Internationalization (English/Russian)
+- Detailed bank history tracking
+- Game history with detailed information
